@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'scoreboard';
+  src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    background: linear-gradient(#111827, #1F2937);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #E5E7EB
+}
+
+.container {
+    display: block;
+    margin: 20px;
+    border: 2px solid #9CA3AF;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.team-container {
+    display: block;
+    text-align: center;
+}
+
+.increment-btn-home {
+    font-family: 'scoreboard', sans-serif;
+    font-size: 40px;
+    background: none;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    padding: 15px;
+}
+
+.increment-btn-home:hover {
+    cursor: pointer;
+    background: #E5E7EB;
+    color: #1F2937;
+    border: 2px solid #38BDF8;
+}
+
+.increment-btn-away {
+    font-family: 'scoreboard', sans-serif;
+    font-size: 40px;
+    background: none;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    padding: 15px;
+}
+
+.increment-btn-away:hover {
+    cursor: pointer;
+    background: #E5E7EB;
+    color: #1F2937;
+    border: 2px solid #E11D48;
+}
+
+.team-home {
+    text-shadow: 2px 2px #38BDF8;
+}
+
+.team-away {
+    text-shadow: 2px 2px #E11D48;
+}
+
+
+h1 {
+    font-size: 60px
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.spans {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'scoreboard';
+}
+
+#newgame-btn {
+    display: block;
+    margin: 35px auto;
+    padding: 10px 40px;
+    font-family: 'Press Start 2P', sans-serif;
+    background: #FEF3C7;
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    color: #111827;
+}
+
+#newgame-btn:hover {
+    transform: scale(1.1);
+}
+
+.timer-container {
+    text-align: center;
+    font-size: 20px;
+}
